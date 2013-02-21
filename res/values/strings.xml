@@ -4,5 +4,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main_list">MainListActivity</string>
+    <string name="test_title">testDemo</string>
+    <string name="viewpager">ViewPagerDemo</string>
+    <string name="viewpager1">ViewPager1</string>
+    <string name="viewpager2">Viewpager2</string>
+    <string name="viewpager3">ViewPager3</string>
 
 </resources>

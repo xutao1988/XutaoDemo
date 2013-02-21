@@ -21,7 +21,17 @@
             </intent-filter>
         </activity>
         
-        <activity android:name=".activity.TestActivity">
+        <activity 
+            android:name=".activity.TestActivity"
+            android:label="@string/test_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".activity.ViewPagerDemo"
+            android:label="@string/viewpager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.SAMPLE_CODE" />
