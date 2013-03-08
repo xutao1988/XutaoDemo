@@ -9,5 +9,8 @@
     <string name="viewpager1">ViewPager1</string>
     <string name="viewpager2">Viewpager2</string>
     <string name="viewpager3">ViewPager3</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="button3">button3</string>
 
 </resources>
