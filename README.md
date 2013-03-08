@@ -10,3 +10,5 @@
 2. 实现ViewPager的简单实例 2013.02.20
 
 3. 实现主界面的SlidingMenu的实例。采用[开源库SlidingMenu](https://github.com/jfeinstein10/SlidingMenu) 2013.03.08
+
+ps: 跑此项目时，需添加[开源库SlidingMenu](https://github.com/jfeinstein10/SlidingMenu) 作为项目library
