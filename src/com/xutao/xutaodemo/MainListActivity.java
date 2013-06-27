@@ -36,10 +36,8 @@ public class MainListActivity extends ListActivity {
         }
 
         /*
-         * 闁俺绻冮崚銈嗘焽瀹搞儳鈻兼稉顓炲嚒閺堝娈慉ctivity閼奉亜濮╂繅顐㈠帠List閵嗗倽瀚㈤弬鏉款杻Sample Activity閿涘苯褰х憰浣告躬manifest娑擃厼顕惔鎿渃tivity閺冭埖鍧婇崝?
-         * <action android:name="android.intent.action.MAIN" />
-         *  <category android:name="android.intent.category.SAMPLE_CODE" />娑撱倛顢戠仦鐐粹偓褍宓嗛崣?
-         * 鐎甸�绨珹PI Demo娑擃厼鐤勯悳鎵畱婢舵艾鐪伴惄顔肩秿閸樼喓鎮婄亸姘弓閻鈧�
+         * 在列表中显示新增Activity，只需要在Manifest中配置Activity属性，添加<action android:name="android.intent.action.MAIN" />
+         *  <category android:name="android.intent.category.SAMPLE_CODE" />即可
          */
         setListAdapter(new SimpleAdapter(this, getData(path),
                 android.R.layout.simple_list_item_1, new String[] { "title" },
